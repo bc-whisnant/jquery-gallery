@@ -107,6 +107,7 @@ header {
   bottom: 0;
   display : none;
   text-align : center;
+  z-index : 100;
 
   
 }
@@ -146,14 +147,20 @@ header {
   
 }
 
+
+
 #btnPrev {
 
 	font-size : 3em;
-	color : black;
+	color : white;
 	background-color : gray;
 	opacity : 0.6;
 	margin-right : 400px;
 	margin-top : 25px;
+	border: 2px solid black;
+	border-radius : 20px;
+	
+	
 	
 	
 	
@@ -163,13 +170,38 @@ header {
 #btnNext {
 
 	font-size : 3em;
-	color : black;
+	color : white;
 	background-color : gray;
 	opacity : 0.6;
 	margin-left : 400px;
 	margin-top : 25px;
+	border: 2px solid black;
+	border-radius : 20px;
 	
 	
+	
+	
+}
+
+#closeButton {
+
+	font-size : 1em;
+	text-decoration: underline;
+	color : white;
+	background-color : gray;
+	opacity : 0.8;
+	margin-right : 200px;
+	position : absolute;
+	top : 0;
+	right : 0;
+	margin-top : 60px;
+	border: 2px solid black;
+	border-radius : 20px;
+
+
+
+		
+
 }
 
 

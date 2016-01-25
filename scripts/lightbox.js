@@ -7,13 +7,19 @@ var $index = 0;
 var $galleryLength = $("#gallery-img li").length;
 
 
+
 $overlay.children("div").append($image);
 $overlay.children("div").append($caption);
+
 $overlay.children("div").append("<button id='btnPrev'> < </button>");
+$overlay.children("div").append("<button id='closeButton'> X </button>");
 $overlay.children("div").append("<button id='btnNext'> > </button>");
 
-
 $("body").append($overlay);
+
+
+
+
 
 
 
@@ -83,6 +89,13 @@ $overlay.click(function(event){
 
     if(event.target.id == "overlay")
     $(this).slideUp("fast");
+	
+
+});
+
+//added close function
+$("#closeButton").click(function(event){
+  $overlay.hide();
 
 });
 
