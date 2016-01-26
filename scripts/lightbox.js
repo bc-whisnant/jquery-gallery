@@ -30,7 +30,7 @@ var updateImage = function(imageLocation, imageCaption){
   $caption.text(imageCaption);
 
 
-}
+};
 
 
 $("#gallery-img a").click(function(event){
@@ -69,7 +69,7 @@ var prevNext = function(prev ) {
 
   
   updateImage(imageLocation, imageCaption);
-}
+};
 
 
 
